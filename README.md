@@ -1,6 +1,6 @@
 # Details
 
-A very simple demo app for [filepicke-padrino](https://github.com/bookworm/filepicker-padrino) base on Max Tilfords [filepicker-rails-demo](https://github.com/maxtilford/filepicker-rails-demo)
+A very simple demo app for [filepicker-padrino](https://github.com/bookworm/filepicker-padrino) base on Max Tilfords [filepicker-rails-demo](https://github.com/maxtilford/filepicker-rails-demo)
 
 # Usage
 
