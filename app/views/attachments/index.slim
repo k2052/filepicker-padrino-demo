@@ -1,0 +1,13 @@
+== link_to 'New Attachment', url(:attachments, :new)
+table
+  tr
+    th ID
+    th Filepicker.io URl
+    th Image
+    th Save
+  - @attachments.each do |a|
+    tr
+      td== a.id
+      td== a.file_url
+      td== filepicker_image_tag a.file_url, w: 300, h: 300 
+      td== filepicker_save_button "Download", a.file_url, "image/png"
